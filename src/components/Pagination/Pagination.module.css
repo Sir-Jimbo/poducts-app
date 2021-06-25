@@ -1,0 +1,30 @@
+.link {
+   text-decoration: none;
+   margin: 10px;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background-color: #f4f4f4;
+}
+
+.link:hover,
+.link:focus {
+   background-color: #f1392d;
+}
+.link:hover .label,
+.link:focus .label {
+   color: #ffffff;
+}
+
+.link:active {
+   background-color: #f1392d;
+}
+
+.label {
+   padding: 0;
+   margin: 10px;
+   list-style: none;
+   text-align: center;
+   font-size: 16px;
+   color: #000000;
+}
